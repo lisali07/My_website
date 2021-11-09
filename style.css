@@ -1,0 +1,126 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+header{
+    height: 50px;
+    background-color: orchid;
+}
+header ul{
+    text-align: center;
+}
+header li{
+    padding: 15px;
+    display: inline-block;
+}
+header ul li a{
+    transition: .3s;
+}
+header ul li a:hover{
+    padding: 15px;
+    color: to;
+    background-color: rgb(65, 5, 47);
+}
+.head{
+    margin: 0 auto;
+}
+.head::after{
+    content: '';
+    display: none;
+    padding: 15px;
+    color: black;
+}
+.bar-menu{
+
+    padding: 15px;
+    color: white;
+}
+.bar-menu:hover{
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+
+
+@media(max-width:900px){
+    .bar-menu{
+        display: block;
+    }
+    header ul{
+        display: none;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    footer{
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.latar{
+    color: white;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.profile {
+    border-color: white;
+    border-width: 7px;
+    border-style: solid;
+    border-radius: 50%;   
+}
+
+.pad{
+    padding: 40px;
+}
+
+footer{
+    background-color: orchid;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.button {
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .input{
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:100%
+}
